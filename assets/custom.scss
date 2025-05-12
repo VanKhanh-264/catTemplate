@@ -1,0 +1,105 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red{
+    border: 1px solid red;
+}
+
+.green{
+    border: 1px solid green;
+}
+
+.banner{
+    background: url('./image/banner.jpg') center center no-repeat;
+    padding: 20px;
+    height: 850px;
+
+    .aboutUs-signIn{
+        height: 80px;
+        width: 100%;
+        text-align: right;
+
+        .aboutUs{
+            color: black;
+        }
+
+        .signIn{
+            margin-right: 120px;
+            margin-left: 20px;
+            border: 2px solid #8bc34a;
+            border-radius: 100px;
+            color: #8bc34a;
+            padding: 10px 20px;
+        }
+
+        .signIn:hover, .aboutUs:hover {
+            text-decoration: underline;
+        }
+        .signIn, .aboutUs{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            font: icon;
+            margin-top: 20px;
+            display: inline-block;
+        }
+    }
+
+    .logo{
+        background: url('./image/logo.png') center no-repeat;
+        height: 108px;
+        margin: 150px auto 35px;
+    }
+    .contentCenter{
+        display: flex;
+        text-align: center;
+        margin-bottom: 60px;
+        .content{
+            width: 33.333%;
+            text-align: center;
+        }
+
+        span{
+            display: block;
+            font: icon;
+            font-size: 30px;
+        }
+        
+        .content img{
+            height: 70px;
+        }
+    }
+    .text{
+        text-align: center;
+        font: icon;
+        margin: 0 auto 40px
+
+        span{
+            font-style: italic;
+            font-size: 24px;
+        }
+    }
+    .start{
+        text-align: center;
+        margin-top: 40px;
+        
+        .btnStartNow{
+            border: 1px solid black;
+            border-radius: 20px;
+            color: white;
+            padding: 11px 25px;
+            text-transform: uppercase;
+            background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+
+
+
+

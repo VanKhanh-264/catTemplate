@@ -1,0 +1,87 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.banner {
+  background: url("./image/banner.jpg") center center no-repeat;
+  padding: 20px;
+  height: 850px;
+}
+.banner .aboutUs-signIn {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.banner .aboutUs-signIn .aboutUs {
+  color: black;
+}
+.banner .aboutUs-signIn .signIn {
+  margin-right: 120px;
+  margin-left: 20px;
+  border: 2px solid #8bc34a;
+  border-radius: 100px;
+  color: #8bc34a;
+  padding: 10px 20px;
+}
+.banner .aboutUs-signIn .signIn:hover, .banner .aboutUs-signIn .aboutUs:hover {
+  text-decoration: underline;
+}
+.banner .aboutUs-signIn .signIn, .banner .aboutUs-signIn .aboutUs {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font: icon;
+  margin-top: 20px;
+  display: inline-block;
+}
+.banner .logo {
+  background: url("./image/logo.png") center no-repeat;
+  height: 108px;
+  margin: 150px auto 35px;
+}
+.banner .contentCenter {
+  display: flex;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.banner .contentCenter .content {
+  width: 33.333%;
+  text-align: center;
+}
+.banner .contentCenter span {
+  display: block;
+  font: icon;
+  font-size: 30px;
+}
+.banner .contentCenter .content img {
+  height: 70px;
+}
+.banner .text {
+  text-align: center;
+  font: icon;
+  margin: 0 auto 40px span;
+  margin-font-style: italic;
+  margin-font-size: 24px;
+}
+.banner .start {
+  text-align: center;
+  margin-top: 40px;
+}
+.banner .start .btnStartNow {
+  border: 1px solid black;
+  border-radius: 20px;
+  color: white;
+  padding: 11px 25px;
+  text-transform: uppercase;
+  background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+  cursor: pointer;
+}
